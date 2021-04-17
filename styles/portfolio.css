@@ -1,0 +1,11 @@
+:root {
+    --header-footer-color: #DCCFC1;
+    --primary-page-color: #FAF6F6;
+    --secondary-page-color: #C1DCC1;
+    --heading-font-family: 'Abril Fatface', cursive;
+    --default-font-family: 'Poppins', sans-serif;
+    --heading-font-color: #B29E89;
+    --secondary-font-color: #A7BFA7;
+    --branding-image: url("images/linen.svg");
+    --button-box-shadow: 12px 13px 0px 2px #FFFFFF;
+}

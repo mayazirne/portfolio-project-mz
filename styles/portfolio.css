@@ -9,3 +9,33 @@
     --branding-image: url("images/linen.svg");
     --button-box-shadow: 12px 13px 0px 2px #FFFFFF;
 }
+
+body {
+  font-family: var(--default-font-family);
+  background-color: var(--primary-page-color);
+}
+
+nav {
+    background-color: var(--header-footer-color);
+    
+}
+
+nav li a {
+    text-decoration: none;
+  color: white !important;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li .active {
+  color: black !important;
+}
+
+.logo {
+ position: absolute;
+ max-width: 100.5px;
+ top: -18px;
+ padding: 0;
+}
+
+

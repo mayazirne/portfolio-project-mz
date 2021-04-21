@@ -6,7 +6,7 @@
     --default-font-family: 'Poppins', sans-serif;
     --heading-font-color: #B29E89;
     --secondary-font-color: #A7BFA7;
-    --branding-image: url(/images/linen.jpg);
+    --branding-image: url(/images/linen2.jpg);
     --button-box-shadow: 9px 7px 0px 1px #FFFFFF;
 }
 
@@ -43,9 +43,14 @@ nav .logo {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 53px;
   font-family: var(--heading-font-family);
   color: var(--heading-font-color);
+  line-height: 0.9;
+}
+
+h3 {
+  color: var(--secondary-font-color);
 }
 
 footer {
@@ -62,7 +67,7 @@ footer a {
 
 footer a:hover {
   color: black;
-  transition: all 100ms ease-in-out;
+  transition: all 130ms ease-in-out;
 }
 
 .hero {
@@ -74,21 +79,21 @@ footer a:hover {
   -webkit-background-size: cover;
 }
 
-.hero h2 {
+.hero h4 {
   font-size: 38px;
   font-family: var(--default-font-family);
-  color: black;
 }
 
 .hero h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
-  color: var(--heading-font-color);
+  color: var(--primary-page-color);
 }
 
 .hero h3 {
   font-size: 28px;
   font-weight: lighter;
+  color: black;
 }
 
 .btn-branding {
@@ -109,12 +114,7 @@ color: var(--secondary-page-color);
 }
 
 .middle-hero img {
-  max-width: 200px;
-  margin: 0;
-}
-
-.middle-hero a {
-margin-top: 80px;
+  max-width: 180px;
 }
 
 .bottom-hero {
@@ -129,3 +129,61 @@ margin-top: 80px;
 opacity: 0.5;
 transition: all 130ms ease-in-out;
 }
+
+.content-container {
+  padding: 40px 30px;
+}
+
+.content-container img {
+  max-width: 300px;
+  box-shadow: var(--button-box-shadow);
+
+}
+
+.wrapper {
+  padding: 30px 20px;
+  background-image: var(--branding-image);
+   background-attachment: local;
+  background-repeat: inherit;
+  background-position: center;
+  -webkit-background-size: cover;
+}
+
+.wrapper a {
+  font-size: 14px;
+  padding: 4px 40px;
+}
+
+.work-container {
+  padding: 60px 40px;
+}
+
+.work-container img {
+  border-radius: 15px;
+  opacity: 0.5;
+  max-width: 270px;
+  box-shadow: 4px 8px 13px 2px rgba(0,0,0,0.17);
+}
+
+.work-container h3 {
+  color: black;
+  font-family: var(--heading-font-family);
+}
+
+.contact-container h1 {
+  font-family: var(--heading-font-family);
+  color: white;
+  font-size: 70px;
+}
+
+.contact-container {
+  background-color: var(--secondary-page-color);
+  padding: 30px 20px;
+}
+
+.contact-header {
+  max-width: 450px;
+  background-color: black;
+  box-shadow: var(--button-box-shadow);
+}
+

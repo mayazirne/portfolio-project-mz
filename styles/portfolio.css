@@ -6,7 +6,7 @@
     --default-font-family: 'Poppins', sans-serif;
     --heading-font-color: #B29E89;
     --secondary-font-color: #A7BFA7;
-    --branding-image: url(/images/linen2.jpg);
+    --branding-image: url(/images/linen.jpg);
     --button-box-shadow: 9px 7px 0px 1px #FFFFFF;
 }
 
@@ -129,14 +129,13 @@ opacity: 0.5;
 transition: all 130ms ease-in-out;
 }
 
-.content-container {
+.about-container {
   padding: 34px 30px;
 }
 
-.content-container img {
-  max-width: 300px;
-  box-shadow: var(--button-box-shadow);
-
+.about-container img {
+  max-width: 275px;
+  box-shadow: 4px 8px 13px 2px rgba(0,0,0,0.17);
 }
 
 .wrapper {
@@ -170,11 +169,11 @@ transition: all 130ms ease-in-out;
 .contact-container h1 {
   font-family: var(--heading-font-family);
   color: white;
-  font-size: 60px;
+  font-size: 55px;
 }
 
 .contact-container {
-  padding: 40px 20px;
+  padding: 30px 20px;
    background-image: var(--branding-image);
   background-position: center;
   -webkit-background-size: cover;
@@ -187,13 +186,13 @@ transition: all 130ms ease-in-out;
 }
 
 .contact-info {
-  background-image: var(--branding-image);
-  width: 500px;
-  padding: 23px;
-  margin: 13px auto;
-  border-radius: 10px;
-  box-shadow: 4px 8px 13px 2px rgba(0,0,0,0.17);
-  opacity: 0.8;
+  background-image: url(/images/mobile.png);
+  width: 410px;
+  padding: 100px;
+  margin: 0 auto;
+  background-position: center;
+  height: 530px;
+   -webkit-background-size: cover;
 }
 
 .contact-info a {
@@ -206,7 +205,26 @@ transition: all 130ms ease-in-out;
 }
 
 .contact-info h5 {
-  color: var(--secondary-font-color);
+  color: white;
   font-weight: medium;
 }
+
+.mobile {
+  background-image: url(/images/mobile.png);
+  width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.mobile-btn {
+  font-size: 13px;
+  color: white !important;
+  padding: 3px 20px;
+}
+
+.mobile-btn:hover {
+  color: var(--secondary-page-color) !important;
+}
+
+
 

@@ -68,12 +68,12 @@ footer a {
 
 footer a:hover {
   color: black;
-  transition: all 130ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 
  
 .hero {
-  padding: 95px 20px;
+  padding: 90px 20px;
   background: var(--branding-image);
   background-position: center;
   -webkit-background-size: cover;
@@ -140,11 +140,15 @@ max-width: 350px;
 
 .about-container {
   padding: 34px 30px;
+  text-align: justify;
+    text-align-last: right;
 }
+
 
 .about-container img {
   max-width: 275px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  float: left;
 }
 
 .wrapper {
@@ -163,6 +167,16 @@ max-width: 350px;
   padding: 60px 40px;
 }
 
+.project-description {
+   text-align: justify;
+    text-align-last: left;
+}
+
+.project-description2 {
+   text-align: justify;
+    text-align-last: right;
+}
+
 .work-container img {
   border-radius: 15px;
   opacity: 0.5;
@@ -178,25 +192,25 @@ max-width: 350px;
 .contact-container h1 {
   font-family: var(--heading-font-family);
   color: white;
-  font-size: 55px;
+  font-size: 50px;
 }
 
 .contact-container {
-  padding: 30px 20px;
+  padding: 20px 20px;
    background-image: var(--branding-image);
   background-position: center;
   -webkit-background-size: cover;
 }
 
 .contact-header {
-  max-width: 450px;
+  max-width: 430px;
   background-color: black;
   box-shadow: var(--button-box-shadow);
 }
 
 .contact-info {
   background-image: url(/images/mobile.png);
-  width: 410px;
+  max-width: 410px;
   padding: 100px;
   margin: 0 auto;
   background-position: center;
@@ -237,9 +251,8 @@ max-width: 350px;
 }
 
 .arrow{
-    position: absolute;
-    top: 88%;
-    left: 50%;
+    position: relative;
+    left: 100.5%;
     transform: translate(-50%,-50%);
 }
 .arrow span{
@@ -272,3 +285,68 @@ max-width: 350px;
     }
 }
 
+@media (max-width: 600px) {
+
+  h2 {
+    font-size: 45px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 67px;
+  }
+
+  .hero h3 {
+    font-size: 23px;
+  }
+
+  .hero h4 {
+    font-size: 32px;
+  }
+
+ .middle-hero a{
+   font-size: 13px;
+ }
+
+ .middle-hero img {
+   max-width: 150px;
+ }
+
+ .about-container {
+  text-align: justify;
+    text-align-last: center;
+    padding: 0 40px;
+    padding-bottom: 40px;
+ }
+
+ .about-container img {
+   float: inherit;
+ }
+
+ .project-description,
+ .project-description2 {
+   margin-top: -20px;
+   text-align: justify;
+   text-align-last: center;
+ }
+
+.contact-container h1 {
+  font-size: 40px;
+}
+
+.contact-header {
+  max-width: 290px;
+}
+
+.contact-container a {
+  font-size: 14px;
+}
+
+.mobile-btn {
+  font-size: 9px !important;
+}
+
+}

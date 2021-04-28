@@ -1,11 +1,19 @@
-:root {
-    --header-footer-color: #DCCFC1;
+/*   --header-footer-color: #DCCFC1;
     --primary-page-color: #FAF6F6;
     --secondary-page-color: #C1DCC1;
     --heading-font-family: 'Abril Fatface', cursive;
     --default-font-family: 'Poppins', sans-serif;
     --heading-font-color: #bfb4a8;
-    --secondary-font-color: #A7BFA7;
+    --secondary-font-color: #A7BFA7; */
+
+:root {
+    --header-footer-color: #DCCFC1;
+    --primary-page-color: #FAF6F6;
+    --secondary-page-color: #324040;
+    --heading-font-family: 'Abril Fatface', cursive;
+    --default-font-family: 'Poppins', sans-serif;
+    --heading-font-color: #647f7f;
+    --secondary-font-color: #AC9F9D;
     --branding-image: url(/images/linen.jpg);
     --button-box-shadow: 9px 7px 0px 1px #FFFFFF;
 }
@@ -18,6 +26,7 @@ body {
 
 nav {
     background-color: var(--header-footer-color);
+    opacity: 0.9;
 }
 
 nav li {
@@ -105,7 +114,7 @@ footer a:hover {
 }
 
 .btn-branding:hover {
-color: var(--secondary-page-color);
+color: var(--secondary-font-color);
 letter-spacing: 0.0650em;
 transition: all 100ms ease-in-out;
 }
@@ -121,6 +130,8 @@ transition: all 100ms ease-in-out;
 
 .bottom-hero {
   padding: 30px 20px;
+  background: var(--branding-image);
+
 }
 
 .bottom-hero img {
@@ -129,9 +140,10 @@ transition: all 100ms ease-in-out;
 }
 
 .bottom-hero img:hover {
-opacity: 0.5;
+opacity: 0.7;
 transition: all 150ms ease-in-out;
 max-width: 350px;
+border: 3px solid black;
 }
 
 .bottom-hero a {

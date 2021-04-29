@@ -1,20 +1,4 @@
-/*   --header-footer-color: #DCCFC1;
-    --primary-page-color: #FAF6F6;
-    --secondary-page-color: #C1DCC1;
-    --heading-font-family: 'Abril Fatface', cursive;
-    --default-font-family: 'Poppins', sans-serif;
-    --heading-font-color: #bfb4a8;
-    --secondary-font-color: #A7BFA7; 
-    
-    <img src="images/logo.png" class="logo" alt="MZ logo">
 
-     position: absolute;
- max-width: 83px;
- top: 0;
- padding: 0;
-
-    */
-  
 @font-face {
   font-family: signature;
   src: url("HousttelySignature-qZo4r.ttf");
@@ -27,7 +11,7 @@
 
 :root {
     --header-footer-color: #bcb2a8;
-    --primary-page-color: #FAF6F6;
+    --primary-page-color: #fcf9f9;
     --secondary-page-color: #2F4F4E;
     --heading-font-family: boiling;
     --default-font-family: 'Poppins', sans-serif;

@@ -129,6 +129,10 @@ footer a:hover {
   padding: 4px 35px;
 }
 
+.btn-branding:focus {
+  box-shadow: var(--button-box-shadow);
+}
+
 .btn-branding:hover {
 color: var(--heading-font-color);
 letter-spacing: 0.0650em;

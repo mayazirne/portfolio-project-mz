@@ -4,13 +4,32 @@
     --heading-font-family: 'Abril Fatface', cursive;
     --default-font-family: 'Poppins', sans-serif;
     --heading-font-color: #bfb4a8;
-    --secondary-font-color: #A7BFA7; */
+    --secondary-font-color: #A7BFA7; 
+    
+    <img src="images/logo.png" class="logo" alt="MZ logo">
+
+     position: absolute;
+ max-width: 83px;
+ top: 0;
+ padding: 0;
+
+    */
+  
+@font-face {
+  font-family: signature;
+  src: url("HousttelySignature-qZo4r.ttf");
+}
+
+@font-face {
+  font-family: boiling;
+  src: url("BoilingBlackDemo-jEReR.ttf");
+}
 
 :root {
-    --header-footer-color: #DCCFC1;
+    --header-footer-color: #bcb2a8;
     --primary-page-color: #FAF6F6;
-    --secondary-page-color: #324040;
-    --heading-font-family: 'Abril Fatface', cursive;
+    --secondary-page-color: #2F4F4E;
+    --heading-font-family: boiling;
     --default-font-family: 'Poppins', sans-serif;
     --heading-font-color: #647f7f;
     --secondary-font-color: #AC9F9D;
@@ -25,9 +44,9 @@ body {
 }
 
 nav {
-    background-color: var(--header-footer-color);
-    opacity: 0.9;
+  background-color: var(--header-footer-color);
 }
+
 
 nav li {
   margin-left: 15px;
@@ -46,10 +65,8 @@ nav li .active {
 }
 
 nav .logo {
- position: absolute;
- max-width: 83px;
- top: 0;
- padding: 0;
+ font-family: signature;
+ 
 }
 
 h2 {
@@ -79,7 +96,6 @@ footer a:hover {
   color: black;
   transition: all 200ms ease-in-out;
 }
-
  
 .hero {
   padding: 90px 20px;
@@ -114,7 +130,7 @@ footer a:hover {
 }
 
 .btn-branding:hover {
-color: var(--secondary-font-color);
+color: var(--heading-font-color);
 letter-spacing: 0.0650em;
 transition: all 100ms ease-in-out;
 }
@@ -131,7 +147,6 @@ transition: all 100ms ease-in-out;
 .bottom-hero {
   padding: 30px 20px;
   background: var(--branding-image);
-
 }
 
 .bottom-hero img {
@@ -143,7 +158,7 @@ transition: all 100ms ease-in-out;
 opacity: 0.7;
 transition: all 150ms ease-in-out;
 max-width: 350px;
-border: 3px solid black;
+border: 2px solid black;
 }
 
 .bottom-hero a {
@@ -156,6 +171,10 @@ border: 3px solid black;
     text-align-last: right;
 }
 
+.about-container h2 {
+  font-family: signature;
+  font-size: 35px;
+}
 
 .about-container img {
   max-width: 275px;
@@ -259,7 +278,7 @@ border: 3px solid black;
 }
 
 .mobile-btn:hover {
-  color: var(--secondary-page-color) !important;
+  color: var(--heading-font-color) !important;
 }
 
 .arrow{
@@ -332,6 +351,10 @@ border: 3px solid black;
    max-width: 150px;
  }
 
+ .bottom-hero img {
+   max-width: 280px;
+ }
+
  .about-container {
   text-align: justify;
     text-align-last: center;
@@ -369,7 +392,6 @@ border: 3px solid black;
 .hero {
   padding: 50px 20px;
   padding-bottom: 80px;
-
 }
 
 }

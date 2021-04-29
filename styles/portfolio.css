@@ -310,7 +310,7 @@ border: 2px solid black;
 .netlify-link,
 .netlify-link a {
   font-size: 11px;
-  color: black;
+  color: white;
 }
 
 .netlify-link a {
@@ -318,7 +318,7 @@ border: 2px solid black;
 }
 
 .netlify-link a:hover {
-  color: white;
+  color: black;
 }
 
 @keyframes animate {
